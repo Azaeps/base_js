@@ -8,7 +8,7 @@ while (true) {
     else if (msg[msg.length - 1] == "?") {
         console.log("Ouais ouais...");
     }
-    else if (msg == msg.toUpperCase()) {
+    else if (msg == msg.toUpperCase() && msg) {
         console.log("Pwa, calme-toi...");
     }
     else if (msg.includes("Fortnite")) {
