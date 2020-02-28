@@ -35,9 +35,7 @@ console.log(array);
 
 console.log("L'âge qu'aurait chaque inventeur aujourd'hui :")
 entrepreneurs.forEach(element => {
-    if (element.year >= 1970 && element.year <= 1979) {
-        console.log(`${element.first} ${element.last} né en ${element.year} aurait ${2020 - element.year} ans aujourd'hui !`);
-    }
+    console.log(`${element.first} ${element.last} né en ${element.year} aurait ${2020 - element.year} ans aujourd'hui !`);
 })
 
 console.log("La liste des entrepreneurs triés par ordre alphabétique : ")
